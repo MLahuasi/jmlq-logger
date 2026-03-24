@@ -1,7 +1,7 @@
 {
   "name": "@jmlq/logger",
   "description": "logger package with clean architecture",
-  "version": "0.1.0-alpha.22",
+  "version": "0.0.1-beta.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
