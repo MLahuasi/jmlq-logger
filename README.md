@@ -1,6 +1,6 @@
 # @jmlq/logger 🧩
 
-![](./assets/jmlq-logger-banner.png)
+![](./assets/jmlq-logger-banner-en.png)
 
 ## 🎯 Objective
 
