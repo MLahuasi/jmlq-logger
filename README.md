@@ -1,5 +1,7 @@
 # @jmlq/logger 🧩
 
+![](./assets/jmlq-logger-banner.png)
+
 ## 🎯 Objective
 
 Provide a **framework-agnostic logger** (Express today, something else tomorrow) that:
@@ -119,6 +121,10 @@ const minLevel: LogLevel = LoggerUtils.parseLogLevel(
 - [Configure PII](./docs/en/configuration.md#pii-redaction)
 - [Integrate with Express](./docs/en/integration-express.md)
 - [Troubleshooting checklist](./docs/en/troubleshooting.md)
+
+## 🧩 Implementation Example
+
+- [View real integration and documentation](https://github.com/MLahuasi/jmlq-ecosystem/blob/main/doc/en/%40jmlq/logger/core.md)
 
 ## 📌 Menu
 

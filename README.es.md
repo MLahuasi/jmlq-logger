@@ -1,5 +1,7 @@
 # @jmlq/logger 🧩
 
+![](./assets/jmlq-logger-banner.png)
+
 ## 🎯 Objetivo
 
 Proveer un **logger desacoplado del framework** (Express hoy, otro mañana) que:
@@ -119,6 +121,10 @@ const minLevel: LogLevel = LoggerUtils.parseLogLevel(
 - [Configurar PII](./docs/es/configuration.md#pii-redaction)
 - [Integrar en Express](./docs/es/integration-express.md)
 - [Checklist de troubleshooting](./docs/es/troubleshooting.md)
+
+## 🧩 Ejemplo de implementación
+
+- [Consultar documentación e integración real](https://github.com/MLahuasi/jmlq-ecosystem/blob/main/doc/es/%40jmlq/logger/core.md)
 
 ## 📌 Menú
 

@@ -23,7 +23,7 @@ import { ILoggerFactoryConfig } from "../types";
 
 export function createLogger(
   config: ILoggerFactoryConfig,
-  source: string = "app-logger"
+  source: string = "app-logger",
 ): ILogger {
   // 1) Normalizar config
   const minLevel = config.minLevel ?? LogLevel.INFO;
@@ -56,7 +56,7 @@ export function createLogger(
   const service: ILogger = {
     // Método genérico de logging
     async log(level, message, meta) {
-      await saveLogUseCase.execute("app-logger", level, message, meta);
+      await saveLogUseCase.execute(source, level, message, meta);
     },
 
     // Helpers por nivel
